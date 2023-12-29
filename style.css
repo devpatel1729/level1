@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+body
+{
+    overflow-x:hidden;
+    font-family: "Rubik";
+}
+#demo
+{
+    padding-top: 45px;
+}
+nav a
+{
+    font-family: 'Rubik';
+}
+.nav1
+{
+    justify-content: center;
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+    transition-duration: 0s;
+}
+.nav1:hover
+{
+    color: azure;
+    text-decoration: none;
+}
+.nav11
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+}
+
+.nav2
+{
+    align-items: center;
+    width: 500px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+}
+.nav3
+{
+    margin-left: 180px;
+    justify-content: center;
+    padding: 10px;
+    color: azure;
+    transition-duration: 0.5s;
+}
+.nav3:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    color: brown;
+}
+.nav4
+{
+    color: azure;
+    padding: 10px;
+    margin-left: -10px;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+.nav4:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    color: red;
+}
+.brands
+{
+   transition-duration: 1s; 
+}
+.brands:hover
+{
+    background-color: rgb(84, 127, 207);
+    color: black;
+}
+.list-inline-item a 
+{
+    text-decoration: none;
+    color: azure;
+    border-radius: 5%;
+}
+.dropdown-header
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight:900;
+    cursor:default;
+}
+.dropdown-header:hover
+{
+    color: azure;
+}
+.dropdown-item > img
+{
+    border-radius: 50%;
+}
+.dropdown-menu ul
+{
+    list-style: none;
+}
+input::placeholder
+{
+    font-family: 'Rubik';
+}
+.a1
+{
+    height: 400px;
+    width: 100%;
+}
+.a2
+{
+    color: white;
+}
+.s1 a
+{
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 20px; 
+    font-size: 35px;
+    font-family:'Rubik';
+    color:black;
+    transition-duration: 2s;
+}
+.s1:hover
+{
+    color: rgb(2, 182, 252);
+    cursor: pointer;
+}
+.s2
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.row
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+.col-sm-2 {
+    flex: 1;
+    padding: 10px; /* Adjust as needed for spacing between columns */
+    box-sizing: border-box;
+}
+.c1
+{
+    transition-duration: 0.3s;
+    align-items: center;
+    height: 400px;
+}
+.c1:hover
+{
+    transform: scale(1.05,1.05);
+}
+.b1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: orange;
+}
+.b2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    margin-left: 40%;
+    margin-top: -27px;
+    background-color: yellowgreen;
+}
+.b3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    margin-left: 205px;
+    margin-top: -25px;
+}
+.b3:hover
+{
+    cursor: pointer;
+}
+.cartcss
+{
+    background-image: url(red.png);
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -22px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center1 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.p2
+{
+    background-color: black;
+
+}
+.c2
+{
+    background-image: linear-gradient(rgb(27, 76, 224),rgb(39, 168, 222));
+}
+.bs1
+{
+    padding-left: 100px;
+    transition-duration: 0.5s;
+}
+.im1
+{
+    transition-duration: 1s;
+}
+.im1:hover
+{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+.card1
+{
+    background-color: rgb(2, 182, 252);
+}
+
+
+
+
+
+.news
+{
+    background-color: rgb(2, 182, 252);
+    color: azure;
+    font-family: "Rubik";
+    height: 160px;
+}
+
+.n1
+{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+}
+.n2
+{
+    float: left;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.emailb
+{
+    color: rgb(2, 182, 252);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 150px;
+    font-weight: 900;
+}
+.emailip
+{
+    border: none;
+}
+.foot
+{
+    background-color: black;
+    height: 370px;
+}
+.fthead
+{
+    color: rgb(2, 182, 252);
+}
+.ff p
+{
+    font-weight: 700;
+    transition-duration: 0.7s;
+}
+.ff p:hover
+{
+    cursor: pointer;
+    color: rgb(2, 182, 252);
+}
+.ff i
+{
+    transition-duration: 0.7s;
+}
+.ff i:hover
+{
+    cursor: pointer;
+    transform: scale(1.5,1.5);
+}
+.fthead2
+{
+    margin-top: -10px;
+    color: rgb(2, 182, 252);
+}
+.fthead3
+{
+    margin-top: -70px;
+    color: rgb(2, 182, 252);
+}
+.foot p
+{
+    color: white;
+}
+.hrf
+{
+    color:rgb(2, 182, 252);
+    margin-top: -100px;
+    margin-left: 110px;
+    height: 20px;
+    width: 1150px;
+}
+.r1
+{
+    margin-left: 110px;
+    margin-top: -70px;
+}
+.r2
+{
+    margin-bottom: 90px;
+    color: white;
+    font-family: "Rubik";
+}
+.hb:hover
+{
+    cursor: pointer;
+}
+
+
+.v1
+{
+    background-color: rgb(255, 255, 255);
+    font-family:"Mulish";
+    width: 250px;
+    height: 210px;
+}
+.v1im
+{
+    background-color: azure;
+    border: 1px solid gray;
+    width: 60px;
+    margin-left: 35%;
+    margin-top: -27%;
+    margin-bottom: 5px;
+}
+.v1src
+{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.v1head
+{
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.price2
+{
+    margin-left: 50px;
+    font-size: 13px;
+}
+.price
+{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.price1
+{
+    font-weight: 200;
+    color: green;
+    margin-left: 5%;
+}
+.price3
+{
+
+    font-size: 12px;
+    font-weight: 200;
+}
+.cartb1
+{
+    font-family: 'Rubik';
+    color: whitesmoke;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    margin-left: 3%;
+    margin-top: 7px;
+    width: 230px;
+}
+.ban
+{
+    transition-duration: 0.5s;
+    color: rgb(120, 26, 25)
+}
+.ban:hover
+{
+    cursor: pointer;
+    color: rgb(252, 183, 53);
+    background-color: rgb(120, 26, 25);   
+}
+.reviewb
+{
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Rubik';
+    margin-left: 0%;
+    margin-top: 7px;
+    width: 230px;
+    height: 32px;
+}
+.d1
+{
+    margin-top: 70px;
+}
+.pr1
+{
+    background-color: rgb(227, 227, 227);
+    margin: 20px;
+    height: 360px;
+    font-family:"Roboto Slab";
+    font-size: 18px;
+}
+.l2
+{
+    padding-top: -10px;
+}
+.ls
+{
+    margin-left: 5%;
+    margin-top: -10px;  
+}
+.lp
+{
+    color: green;
+    margin-left: 5%;
+}
+.ld
+{
+    font-size: 10px;
+    margin-left: 7%;
+}
+.cartb
+{
+    border: none;
+    background-color: yellow;
+    margin-left: 4%;
+    margin-top: 7px;
+    width: 195px;
+}
+.div2
+{
+    height: 150px;
+    width: 900px;
+}
+.review
+{
+    font-size: 14px;
+}

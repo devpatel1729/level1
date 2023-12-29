@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadjective.Co</title>
+    <script src="demo.js"></script>
+    <link rel="shortcut icon" href="444.png" style="height: 100%;width: 300%;">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/016d349435.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark">
+        
+        <a href="1.html" class="navbar-brand">
+            <img src="./images/logo2.png" height="45px" style="margin-left: 20px;" class="rounded">
+        </a>
+        <nav class="navbar-nav">
+            <li class="nav-item display-inline nav1 dropdown">
+                <a href="#" class="nav1" data-bs-toggle="dropdown" onclick="anime1(this)">
+                    Categories
+                    <i class="fa-solid fa-angle-down da" id="arrdwn1"></i>
+                </a>
+                <ul class="dropdown-menu drop1 bg-dark" style="width: 1000px;">
+                    <ul class="list-inline-item">
+                        <li><a href="#" class="dropdown-header bg-success rounded">Audio Store</a></li>
+                        <li><a href="#" class="dropdown-item">Headphones</a></li>
+                        <li><a href="#" class="dropdown-item">Headsets</a></li>
+                        <li><a href="#" class="dropdown-item">Earbuds</a></li>
+                        <li><a href="#" class="dropdown-item">Wireless</a></li>
+                    </ul>
+                    <ul class="list-inline-item">
+                        <li><a href="#" class="dropdown-header bg-success rounded">Speakers</a></li>
+                        <li><a href="#" class="dropdown-item">Bluetooth Speakers</a></li>
+                        <li><a href="#" class="dropdown-item">Soundbars</a></li>
+                        <li><a href="#" class="dropdown-item">Home Threatre System</a></li>
+                        <li><a href="#" class="dropdown-item">Multifunction</a></li>
+                    </ul>
+                    <ul class="list-inline-item">
+                        <li><a href="#" class="dropdown-header bg-success rounded">Wearables</a></li>
+                        <li><a href="#" class="dropdown-item">Premium Smartwatches</a></li>
+                        <li><a href="#" class="dropdown-header bg-success rounded">Personal Care</a></li>
+                        <li><a href="#" class="dropdown-item">Hair Dryers</a></li>
+                        <li><a href="#" class="dropdown-item">Hair Stylers</a></li>
+                    </ul>
+                    <ul class="list-inline-item">
+                        <li><a href="#" class="dropdown-item">Oral Care</a></li>
+                        <li><a href="#" class="dropdown-item">Trimmers</a></li>
+                        <li><a href="#" class="dropdown-header bg-success rounded">Tech Accesories</a></li>
+                        <li><a href="#" class="dropdown-item">Power banks</a></li>
+                        <li><a href="#" class="dropdown-item">Memory Cards</a></li>
+                    </ul>
+                </ul>
+            </li>
+            <li class="nav-item d-inline nav1 dropdown">
+                <a href="#" class="nav1" data-bs-toggle="dropdown" onclick="anime2(this)">
+                    Brands
+                    <i class="fa-solid fa-angle-down" id="arrdwn2"></i>
+                </a>
+                <ul class="dropdown-menu drop1 bg-dark" style="width: 400px;">
+                    <ul class="list-inline-item" >
+                        <li><a href="#" class="dropdown-item"><img src="./images/li1.jpg"></a></li>
+                        <li><a href="#" class="dropdown-item"><img src="./images/li2.jpg"></a></li>
+                        <li><a href="#" class="dropdown-item"><img src="./images/li3.jpg"></a></li>
+                        <li><a href="#" class="dropdown-item"><img src="./images/li7.jpg"></a></li>
+                    </ul>
+                    <ul class="list-inline-item">
+                        <li><a href="#" class="dropdown-item"><img src="./images/li4.jpg"></a></li>
+                        <li><a href="#" class="dropdown-item"><img src="./images/li5.jpg"></a></li>
+                        <li><a href="#" class="dropdown-item"><img src="./images/li6.jpg"></a></li>
+                        <li><a href="#" class="dropdown-item"><img src="./images/li8.jpg"></a></li>
+                    </ul>
+                </ul>
+            </li>
+
+            <li class="nav-item nav11">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for Products .." class="rounded nav2" style="color: white;">
+            </li>
+
+            <li class="nav-item nav3">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div id="cart" class="cartcss">0</div> 
+            </li>
+            <li class="nav-item nav4">
+                <i class="fa-solid fa-heart"></i>
+            </li>
+        </nav>
+    </div>
+    </nav>
+
+
+    <div class="d1">
+        <img src="./images/boath.png">
+    </div>
+    
+    <div class="row">
+
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr1.png" height="200px" onmouseover="hover9(this)" onmouseout="hover10(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> Airdopes 131 </span><br>
+                <span class="l2 ls"> ₹ 999 <span class="lp"> 67% off </span><span class="ld"><del> ₹ 2,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.8 | 1200 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr2.png" height="200px" onmouseover="hover11(this)" onmouseout="hover12(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> Stone 190 DC </span><br>
+                <span class="l2 ls"> ₹ 999 <span class="lp"> 69% off </span><span class="ld"><del> ₹ 2,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 5.0 | 1288 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr3.png" height="200px" onmouseover="hover13(this)" onmouseout="hover14(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> Rockerz 225 Neo </span><br>
+                <span class="l2 ls"> ₹ 1,299 <span class="lp"> 57% off </span><span class="ld"><del> ₹ 2,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.8 | 2953 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr4.png" height="200px" onmouseover="hover15(this)" onmouseout="hover16(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> Xtend Talk </span><br>
+                <span class="l2 ls"> ₹ 2,999 <span class="lp"> 55% off </span><span class="ld"><del> ₹ 6,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.9 | 1370 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr5.png" height="200px" onmouseover="hover17(this)" onmouseout="hover18(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> boAt Rockerz 450 Pro </span><br>
+                <span class="l2 ls"> ₹ 1,999 <span class="lp"> 50% off </span><span class="ld"><del> ₹ 3,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.7 | 2920 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr6.png" height="200px" onmouseover="hover19(this)" onmouseout="hover20(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> boAt Immortal 200 </span><br>
+                <span class="l2 ls"> ₹ 1,599 <span class="lp"> 68% off </span><span class="ld"><del> ₹ 4,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.8 | 1200 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr7.png" height="200px" onmouseover="hover21(this)" onmouseout="hover22(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> boAt Watch Flash </span><br>
+                <span class="l2 ls"> ₹ 1,199 <span class="lp"> 83% off </span><span class="ld"><del> ₹ 6,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 3.0 | 8788 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr8.png" height="200px" onmouseover="hover23(this)" onmouseout="hover24(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> boAt Rockerz 370 </span><br>
+                <span class="l2 ls"> ₹ 1,199 <span class="lp"> 52% off </span><span class="ld"><del> ₹ 2,499 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.4 | 1950 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr9.png" height="200px" onmouseover="hover25(this)" onmouseout="hover26(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> Stone 260 </span><br>
+                <span class="l2 ls"> ₹ 1,299 <span class="lp"> 48% off </span><span class="ld"><del> ₹ 2,490 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 2.9 | 3270 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+        <div class="col-sm-2 pr1 rounded-3">
+            <img src="./images/pr10.png" height="200px" onmouseover="hover27(this)" onmouseout="hover28(this)">
+            <div style="background-color: white;width: 210px;margin-left: -3%;" class="rounded-3 div2">
+                <span class="ls"> boAt TRebel Rockerz</span><br>
+                <span class="l2 ls"> ₹ 1,499 <span class="lp"> 62% off </span><span class="ld"><del> ₹ 3,990 </del>
+                </span></span>
+                <hr width="95%" style="color: black;margin-left: 2%;margin-top: 5px;">
+                <span class="review ls"> <i class="fa-solid fa-star"></i> 4.1 | 4290 reviews</span>
+                <img src="./images/heart.png" height="30px" onclick="heart(this)" style="padding-left: 23px;" class="hb">
+                <input type="button" value="Add to Cart" class="cartb rounded" onclick="cart(this)">
+            </div>
+        </div>
+    </div>
+
+    <section class="foot" style="margin-top: 100px;">
+        <div class="row" style="margin: 100px;padding-top: 100px;">
+            <div class="col-sm-3 ff">
+                <h5 class="fthead">Company</h5><br>
+                <p>Partner With Us</p>
+                <p>Advertise</p>
+                <p>Media Kit</p>
+            </div>
+            <div class="col-sm-3 ff">
+                <h5 class="fthead">Legal</h5><br>
+                <p>Terms</p>
+                <p>Privacy</p>
+                <p>Cookies</p>
+            </div>
+            <div class="col-sm-3 ff">
+                <h5 class="fthead2">Get The App</h5><br>
+                <span><img src="./images/appstore.png" style="margin-top: 0px;margin-bottom: 10px;"></span>
+                <span><img src="./images/playstore.png" style="margin-top: 10px;"></span>
+            </div>
+            <div class="col-sm-3 ff">
+                <h5 class="fthead3">Find Us On</h5><br>
+                <p>
+                    <i class="fa-brands fa-instagram" style="margin-right: 10px;"></i>
+                    <i class="fa-brands fa-facebook" style="margin-right: 10px;"></i>
+                    <i class="fa-brands fa-linkedin" style="margin-right: 10px;"></i>
+                    <i class="fa-brands fa-twitter" style="margin-right: 10px;"></i>
+                    <i class="fa-brands fa-youtube" style="margin-right: 10px;"></i>
+                </p>
+            </div>
+        </div>
+        <hr class="hrf">
+
+        <div class="row" style="padding: 0px;">
+            <div class="col-sm-3">
+                <a href="1.html">
+                <img src="./images/logo2.png" width="170px" class="rounded-3 r1" 
+                    style="margin-top: -30px;margin-left: 25px;">
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <p style="visibility: hidden;">.</p>
+            </div>
+            <div class="col-sm-3">
+                <p style="visibility: hidden;">.</p>
+            </div>
+            <div class="col-sm-3" style="margin-top: -20px;margin-left: -170px;">
+                <span class="r2">
+                    © 2023 Gadjective.Co. All Rights Reserved.<br>
+                    Powered By Dev H Patel
+                </span>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container news rounded-3 row" style="margin-left: 100px;margin-top: -450px;">
+        <div class="col-sm-6">
+            <span class="n1">Join Our Newsletter</span><br>
+            <span class="n2">Subscribe to newsletter to get Exclusive information about the latest offers , news , upcoming events 48 hours before , at Just ₹ 49 Per Year.</span>
+        </div>
+        
+        <div class="col-sm-6" style="margin-right: 0px;">
+            <form action="post" class="needs-validated">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="email" placeholder="Email" class="rounded-2 emailip form-control" style="margin-top: 0px;margin-left: 0px;margin-right: 0px;height: 40px; width: 350px;border: none;">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="submit" value="Subscribe" class="rounded-2 emailb"
+                        style="margin-left: 90px;margin-top: 0px;">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
